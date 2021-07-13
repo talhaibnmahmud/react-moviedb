@@ -8,10 +8,10 @@ const REQUEST_TOKEN_URL = `${API_URL}authentication/token/new?api_key=${API_KEY}
 const LOGIN_URL = `${API_URL}authentication/token/validate_with_login?api_key=${API_KEY}`;
 const SESSION_ID_URL = `${API_URL}authentication/session/new?api_key=${API_KEY}`;
 
-const IMAGE_BASE_URL = "https://image/tmdb.org/t/p/";
+const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/";
 
 const BACKDROP_SIZE = "w1280";
-const POSTER_SIZE = "w720";
+const POSTER_SIZE = "w780";
 
 export {
   API_KEY,
