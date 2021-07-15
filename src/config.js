@@ -11,7 +11,7 @@ const SESSION_ID_URL = `${API_URL}authentication/session/new?api_key=${API_KEY}`
 const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/";
 
 const BACKDROP_SIZE = "w1280";
-const POSTER_SIZE = "w780";
+const POSTER_SIZE = "w342";
 
 export {
   API_KEY,

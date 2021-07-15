@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import RMDBLogo from "../images/react-movie-logo.svg";
 import TMDBLogo from "../images/tmdb-logo.svg";
 
@@ -7,7 +9,9 @@ const Header = () => {
   return (
     <Wrapper>
       <Content>
-        <LogoImg src={RMDBLogo} alt="RMDB-LOGO" />
+        <Link to="/">
+          <LogoImg src={RMDBLogo} alt="RMDB-LOGO" />
+        </Link>
         <TMDBLogoImg src={TMDBLogo} alt="TMDB-Logo" />
       </Content>
     </Wrapper>
