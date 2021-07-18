@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 import { IMAGE_BASE_URL, BACKDROP_SIZE } from "../config";
 
 import { Wrapper, Content, Text } from "./MovieInfo.styles";
@@ -39,6 +41,10 @@ const MovieInfo = ({ movie }) => {
       </Content>
     </Wrapper>
   );
+};
+
+MovieInfo.propTypes = {
+  movie: PropTypes.object,
 };
 
 export default MovieInfo;
